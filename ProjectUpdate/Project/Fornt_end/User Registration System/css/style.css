@@ -1,0 +1,465 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:rgba(50, 50, 53, 0.979);
+    background-attachment: fixed;
+	background-position:center;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	font-family: 'Muli', sans-serif;
+}
+.clear {
+	clear:both;
+}
+/*-- AgileITS --*/
+.log .content1 h1 {
+	font-size:40px;
+	padding: 30px 0 0;
+	color:White;
+	font-weight: 300;
+	font-family: 'Nunito', sans-serif;
+	text-align:center;
+}
+.log .content2 h1 {
+	font-size:40px;
+	padding: 30px 0 0;
+	color:White;
+	font-weight: 300;
+	font-family: 'Nunito', sans-serif;
+	text-align:center;
+}
+.lbtext{
+	color : white;
+}
+.Error{
+	color : red; 
+}
+.log {
+	width:50%;
+	margin:0 auto;
+}
+.content1 {
+    text-align: center;
+    background-color:rgba(33, 54, 97, 0.5);
+    border-radius: 0px;
+}
+.content1 input[type="text"]{
+	padding:10px 10px 10px 10px;
+	width:76%;
+	border:1px solid White;
+	color:white;
+	text-align:left;
+	outline:none;
+	font-size:18px;
+	background:rgba(0, 0, 0, 0);
+	margin-top:4%;
+	font-weight: 300;
+	font-family: 'Muli', sans-serif;
+}
+.content1 input[type="password"] {
+	padding:10px 10px 10px 10px;
+	width:76%;
+	border:1px solid White;
+	color:White;
+	text-align:left;
+	outline:none;
+	font-size:18px;
+        background:rgba(0,0, 0, 0);
+	margin-top:6%;
+	font-weight: 300;
+	font-family: 'Muli', sans-serif;
+}
+.button-row {
+	width:100%;
+	margin-top:5%;
+	padding-bottom:40px;
+}
+.sign-in {
+	padding:10px;
+	background-color:#0a6ad0;
+	width:80%;
+	border:none;
+	cursor:pointer;
+	color:white;
+	font-weight: 300;
+	font-family: 'Nunito', sans-serif;
+	font-size:20px;
+}
+.sign-in:hover {
+	background-color:#1259a5;
+	color:White;
+}
+h2 {
+    background: rgba(34, 81, 125, 0.82);
+    padding: 1em 0;
+    font: size 25;
+	color:White;
+	font-weight: 300;
+	font-family: 'Nunito', sans-serif;
+	text-align:center;
+    margin-top: 2em;
+}
+h2 a {
+    color: white;
+    text-decoration:none;
+}
+h2 a:hover{
+    color: black;
+}
+li.f {
+    background: #3b5998;
+}
+li.t {
+    background: #55acee;
+}
+li.p {
+    background: #bd2026;
+}
+li.i {
+    background: #0076b4;
+}
+.social li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    float: left;
+	padding:0.5em 0;
+}
+
+.content2 {
+    text-align: center;
+    background-color: rgba(33, 54, 97, 0.5);
+    border-radius: 0px;
+}
+.content2 input[type="tel"] {
+	padding:15px 10px 15px 10px;
+	width:76%;
+	border:1px solid white;
+	color:white;
+	text-align:left;
+	outline:none;
+	font-size:18px;
+	background:rgba(0, 0, 0, 0);
+	margin-top:3%;
+	font-weight: 300;
+	font-family: 'Muli', sans-serif;
+}
+.content2 input[type ="text"]{
+	padding:15px 10px 15px 10px;
+	width:76%;
+	border:1px solid white;
+	color:white;
+	text-align:left;
+	outline:none;
+	font-size:18px;
+	background:rgba(0, 0, 0, 0);
+	margin-top:3.5%;
+	font-weight: 300;
+	font-family: 'Muli', sans-serif;
+}
+.content2 input[type="password"] {
+	padding:15px 10px 15px 10px;
+	width:76%;
+	border:1px solid white;
+	color:white;
+	text-align:left;
+	outline:none;
+	font-size:18px;
+	background:rgba(0, 0, 0, 0);
+	margin-top:3.5%;
+	font-weight: 300;
+	font-family: 'Muli', sans-serif;
+}
+.content2 .check{
+	padding:14px 135px 25px 10px;
+	width:80%;
+	border:1px solid white;
+	color:white;
+	text-align:left;
+	outline:none;
+	font-size:18px;
+	background:rgba(0, 0, 0, 0);
+	margin-top:3.5%;
+	font-weight: 300;
+	font-family: 'Muli', sans-serif;
+}
+.content2 .radio{
+	padding:20px 235px 15px 10px;
+	width:86%;
+	border:1px solid white;
+	color:white;
+	text-align:left;
+	outline:none;
+	font-size:18px;
+	background:rgba(0, 0, 0, 0);
+	font-weight: 300;
+	font-family: 'Muli', sans-serif;
+}
+.recode{
+	padding:10px;
+	background-color:#0a6ad0;
+	width:40%;
+	border:none;
+	cursor:pointer;
+	color:white;
+	font-weight: 300;
+	font-family: 'Nunito', sans-serif;
+	font-size:20px;
+}
+.register {
+	padding:10px;
+	background-color:#0a6ad0;
+	width:80%;
+	border:none;
+	cursor:pointer;
+	color:white;
+	font-weight: 300;
+	font-family: 'Nunito', sans-serif;
+	margin-top:3.5%;
+	font-size:20px;
+	margin-top:7%;
+}
+.register:hover {
+	background-color:#1259a5;
+	color:white;
+}
+.footer {
+	margin-top:3%;
+	padding:50px 0;
+	text-align:center;
+}
+.footer p {
+	color:green;
+	font-size:17px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	line-height:25px;
+}
+@media (max-width: 1680px){
+.log {
+    width: 34%;
+}
+}
+@media (max-width: 1440px){
+.log {
+    width: 40%;
+}
+}
+@media (max-width: 1366px){
+.log {
+    width: 42%;
+}
+}
+@media (max-width: 1280px){
+	.sign-in,.register {
+    width: 80%;
+}
+.log {
+    width: 45%;
+}
+}
+
+@media (max-width: 1080px){
+	.log .content1 h1 , .log .content2 h1 {
+    font-size: 35px;
+	}
+}
+
+@media (max-width: 1024px){
+	.button-row {
+	padding:25px 0;
+	}
+	.log .content1 h1, .log .content2 h1 {
+    font-size: 30px;
+    padding: 15px 0;
+}
+	.sign-in,.register {
+    width: 81%;
+}
+.log {
+    width: 57%;
+}
+}
+
+@media (max-width: 991px){
+.log {
+    width: 58%;
+}
+}
+
+@media (max-width: 900px){
+	.button-row {
+    padding: 10px 0;
+	}
+	.content2 {
+	padding:30px 0 50px;
+	}
+	.log {
+    width: 64%;
+}
+}
+
+@media (max-width: 800px){
+	.content1 input[type="text"] {
+    font-size: 16px;
+	}
+	.content1 input[type="password"] {
+	font-size: 16px;
+	}
+	.content2 input[type="text"] {
+	font-size: 16px;
+	}
+	.content2 input[type="tel"] {
+	font-size: 16px;
+	}
+	.content2 input[type="email"],.content1 input[type="email"] {
+	font-size: 16px;
+	}
+	.content2 input[type="password"] {
+	font-size: 16px;
+	}
+	.log {
+    width: 71%;
+	}
+	.log .content1 h1, .log .content2 h1 {
+    font-size: 27px;
+	}
+}
+
+@media (max-width: 768px){
+	.sign-in {
+	font-size: 16px;
+	}
+	.reset {
+	font-size: 16px;
+	}
+	.register {
+	font-size: 16px;
+	}
+	.footer p {
+	font-size:16px;
+	}
+	.log {
+	margin:0 auto 50px;
+	}
+	.sign-in,.register {
+    width: 80%;
+}
+.log {
+    width: 74%;
+}
+}
+
+@media (max-width: 736px){
+	.log {
+    width: 79%;
+	}
+	.content1 p {
+    margin-left: 31%;
+	}
+}
+
+@media (max-width: 667px){
+.log {
+    width: 86%;
+}
+}
+
+@media (max-width: 640px){
+.log {
+    width: 77%;
+}
+
+}
+@media (max-width: 600px){
+.sign-in, .register {
+    width: 82%;
+}
+}
+
+@media (max-width: 568px){
+	.log .content1 h1, .log .content2 h1 {
+    font-size: 30px;
+    padding: 15px 0 15px;
+}
+.sign-in, .register {
+    width: 83%;
+}
+}
+
+@media (max-width: 480px){
+.log {
+    margin: 0 auto;
+}
+.footer {
+	padding: 50px 20px;
+}
+h2 {
+    font-size: 1em;
+}
+.sign-in, .register {
+    width: 82%;
+}
+}
+.log .content1 h1, .log .content2 h1 {
+    font-size: 27px;
+}
+.sign-in, .register {
+    width: 83%;
+}
+
+@media (max-width: 384px){
+.sign-in, .register {
+    width: 84%;
+}
+.footer {
+    padding: 32px 9px;
+}
+}
+.log .content1 h1, .log .content2 h1{
+    font-size: 25px;
+}
+
+@media (max-width: 320px){
+.content1 input[type="text"] {
+	font-size: 14px;
+}
+.content1 input[type="password"] {
+	font-size: 14px;
+}
+.content2 input[type="text"] {
+	font-size: 14px;
+}
+.content2 input[type="tel"] {
+	margin-top: 6%;
+	font-size: 14px;
+}
+.content2 input[type="email"],.content1 input[type="email"] {
+	margin-top: 6%;
+	font-size: 14px;
+}
+.content2 input[type="password"] {
+	margin-top: 6%;
+	font-size: 14px;
+}
+.log .content1 h1, .log .content2 h1 {
+    font-size: 23px;
+}
+.sign-in , .reset {
+    font-size: 15px;
+}
+.footer p {
+    font-size: 14px;
+}
+.log {
+    width: 86%;
+}
+.footer {
+    padding: 18px 7px;
+}
+.sign-in, .register {
+    width: 85%;
+}
+}
